@@ -8,7 +8,7 @@ import { initnotify, getToken, notify ,newChannel } from 'expo-push-notification
 import QueryString from 'qs';
 
 export default function Login(props) {
-const [username,setUserName]=useState('tuan@gmail.com')
+const [username,setUserName]=useState('zzz@gmail.com')
 const [password,setPassWord]=useState('ass')
 const [load,setLoad] = useState(false);  
 // APi firebase
@@ -57,10 +57,7 @@ const [load,setLoad] = useState(false);
                    color='blue'>                  
                    </Spinner>
             <View style={styles.layout}>
-              <Text style={{
-                fontSize: 50, fontWeight: 'bold', textAlign: 'center', marginTop:Platform.OS==='ios'?40: 25, color: 'white', textShadowColor: 'rgba(255, 255, 255, 1)',
-                textShadowOffset: { width: 2, height: 1 }, textShadowRadius: 5
-              }}>WELCOME</Text>
+             
               
          
         
@@ -75,7 +72,7 @@ const [load,setLoad] = useState(false);
               {/*dang nhap*/}
               <Text style={{ backgroundColor: '#058CDB',color:'#fff', width: 200, height: 40, textAlign: 'center', borderRadius:10, paddingTop: 10,marginTop:30, }}
                 onPress={()=>
-                  login()
+                  _save()
                 }>Đăng nhập</Text>
       
               <View style={styles.chuacotk}>
@@ -96,7 +93,7 @@ const [load,setLoad] = useState(false);
 const styles = StyleSheet.create({
     layout: {
       flex: 1,
-      backgroundColor: '#33B2FC',
+      backgroundColor: 'green',
       alignItems: 'center',
       justifyContent: 'center'
   

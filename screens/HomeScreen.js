@@ -24,29 +24,23 @@ const SECTIONS = [
     "href": "http://asian.dotplays.com/wp-json/wp/v2/users/1",
   },
   {
-    title: 'Ảnh gái xinh',
+    title: 'Ảnh ',
     "_24": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=24&d=mm&r=g",
     "_48": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=48&d=mm&r=g",
     "href": "http://asian.dotplays.com/wp-json/wp/v2/users/1",
   },
   {
-    title: 'Ạnh họa mi hót',
+    title: 'Ạnh',
     "_24": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=24&d=mm&r=g",
     "_48": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=48&d=mm&r=g",
     "_96": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=96&d=mm&r=g",
   }, {
-    title: 'ảnh cu gáy ',
+    title: 'ảnh hgfhfg ',
     "_24": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=24&d=mm&r=g",
     "_48": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=48&d=mm&r=g",
     "_96": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=96&d=mm&r=g",
-    "href": "http://asian.dotplays.com/wp-json/wp/v2/comments",
-  },{
-  title: 'Đại bàng ',
-  "_24": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=24&d=mm&r=g",
-  "_48": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=48&d=mm&r=g",
-  "_96": "http://0.gravatar.com/avatar/320614d3587a32a9dd4207c3b03b44f3?s=96&d=mm&r=g",
-  "href": "http://asian.dotplays.com/wp-json/wp/v2/comments",
-},
+
+  },
   
 ];
 _renderSectionTitle = section => {
@@ -159,7 +153,7 @@ HomeScreen.navigationOptions = props=>{
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: '#87FA95',
+    backgroundColor: 'blue',
     padding: 10,
   },
   headerText: {
